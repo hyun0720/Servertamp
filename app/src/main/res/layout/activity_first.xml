@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2e8de"
+    android:gravity="center"
+    tools:context="com.example.leejh.servertamp.FirstActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/Gaeun"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#adbcb2"
+        android:text="가은" />
+        <Button
+            android:id="@+id/CafeDream"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#e0bd91"
+        android:text="카페드림"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Etang"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#c7ce8c"
+            android:text="에땅" />
+
+        <Button
+        android:id="@+id/Pandorothy"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#594235"
+        android:text="판도로시"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
